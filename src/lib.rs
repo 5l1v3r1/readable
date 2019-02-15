@@ -1,6 +1,6 @@
 extern crate rand;
 
-mod Readable {
+pub mod Readable {
 use rand::prelude::*;
 
 static adjectives: [&str; 1133] = [
